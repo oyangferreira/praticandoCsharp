@@ -1,13 +1,12 @@
-﻿int valor;
+﻿using System;
 
-Console.Write("Digite um número: ");
-valor = int.Parse(Console.ReadLine());
-
-if(valor % 2 == 0) {
-    Console.WriteLine("Par");
+namespace Application
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
 }
-else {
-    Console.WriteLine("Ímpar");
-}
 
-Console.WriteLine("Versão da aplicação: 1.0");
