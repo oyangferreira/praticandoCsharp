@@ -10,3 +10,5 @@ if(valor % 2 == 0) {
 else {
     Console.WriteLine("Ímpar");
 }
+
+Console.WriteLine("Versão da aplicação: 1.0");
